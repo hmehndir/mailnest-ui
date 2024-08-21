@@ -22,7 +22,7 @@ const Login = () => {
         e.preventDefault();
         console.log(input);
         try {
-            const res = await axios.post("http://localhost:8080/api/v1/user/login", input, {
+            const res = await axios.post("https://hmail-service.vercel.app/api/v1/user/login", input, {
                 headers:{
                     'Content-Type':"application/json"
                 },
