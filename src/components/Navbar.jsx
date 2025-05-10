@@ -41,7 +41,7 @@ const Navbar = () => {
                         <RxHamburgerMenu />
                     </div>
                     <img className='w-8' src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" alt="logo" />
-                    <h1 className='text-2xl text-gray-500 font-medium'>Hmail</h1>
+                    <h1 className='text-2xl text-gray-500 font-medium'>MailNest</h1>
                 </div>
             </div>
             {

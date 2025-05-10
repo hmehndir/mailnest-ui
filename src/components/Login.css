@@ -1,0 +1,109 @@
+/* Page Background */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f6f9;
+    padding: 20px;
+  }
+  
+  /* Login Box */
+  .login-form {
+    background-color: #ffffff;
+    padding: 40px 32px;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-align: center;
+  }
+  
+  /* Logo Wrapper */
+  .login-form .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  
+  .login-form .brand-icon {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+  }
+  
+  /* Form Title */
+  .login-form h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  /* Inputs */
+  .login-form input {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+    transition: border 0.2s ease;
+  }
+  
+  .login-form input:focus {
+    border-color: #1a73e8;
+  }
+  
+  /* Login Button */
+  .login-form button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #155dc1;
+  }
+  
+  /* Footer Text */
+  .login-form p {
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .login-form a {
+    color: #1a73e8;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+    /* Center the logo */
+ .login-container .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  
+  /* Size and spacing of the logo */
+  .login-container .brand-icon {
+    width: 250px;
+    height: 180px;
+    object-fit: contain;
+  }
+  
