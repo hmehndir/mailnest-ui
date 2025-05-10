@@ -40,7 +40,7 @@ const Signup = () => {
         <div className="signup-container">
           <form onSubmit={submitHandler} className="signup-form">
             <div className="brand">
-            <img src="../src/assets/logo.png" alt="MailNest" className="brand-icon" />
+            <img src="../src/assets/logo.webp" alt="MailNest" className="brand-icon" />
               {/* <span className="brand-name">MailNest</span> */}
             </div>
             <h1>Signup</h1>

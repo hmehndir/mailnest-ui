@@ -45,7 +45,7 @@ const Login = () => {
         <div className="login-container">
           <form onSubmit={submitHandler} className="login-form">
             <div className="brand">
-            <img src="../src/assets/logo.png" alt="MailNest" className="brand-icon"/>
+            <img src="../src/assets/logo.webp" alt="MailNest" className="brand-icon"/>
             </div>
             <h1>Login</h1>
             <input name="email" type="email" placeholder="Email" onChange={changeHandler} value={input.email} />

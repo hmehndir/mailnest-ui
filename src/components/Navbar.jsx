@@ -40,7 +40,7 @@ const Navbar = () => {
                     <div className='p-3 hover:bg-gray-200 rounded-full cursor-pointer'>
                         <RxHamburgerMenu />
                     </div>
-                    <img className='w-8' src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" alt="logo" />
+                    {/* <img className='w-8' src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" alt="logo" /> */}
                     <h1 className='text-2xl text-gray-500 font-medium'>MailNest</h1>
                 </div>
             </div>
