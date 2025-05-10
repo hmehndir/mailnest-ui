@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import axios from "axios";
 import toast from 'react-hot-toast';
 import './Signup.css';
+import logo from '../assets/logo.webp';
 
 const Signup = () => {
     const [input, setInput] = useState({
@@ -40,7 +41,7 @@ const Signup = () => {
         <div className="signup-container">
           <form onSubmit={submitHandler} className="signup-form">
             <div className="brand">
-            <img src="../src/assets/logo.webp" alt="MailNest" className="brand-icon" />
+            <img src= {logo} alt="MailNest" className="brand-icon" />
               {/* <span className="brand-name">MailNest</span> */}
             </div>
             <h1>Signup</h1>

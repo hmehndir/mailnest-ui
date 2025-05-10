@@ -5,6 +5,7 @@ import { useDispatch } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom'
 import { setAuthUser } from '../redux/appSlice';
 import './Login.css';
+import logo from '../assets/logo.webp';
 
 const Login = () => {
 
@@ -45,7 +46,7 @@ const Login = () => {
         <div className="login-container">
           <form onSubmit={submitHandler} className="login-form">
             <div className="brand">
-            <img src="../src/assets/logo.webp" alt="MailNest" className="brand-icon"/>
+            <img src= {logo} alt="MailNest" className="brand-icon"/>
             </div>
             <h1>Login</h1>
             <input name="email" type="email" placeholder="Email" onChange={changeHandler} value={input.email} />
