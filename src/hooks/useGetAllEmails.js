@@ -10,7 +10,7 @@ const useGetAllEmails = () => {
         const fetchEmails = async () => {
             try {
 
-                const res = await axios.get("https://hmail-service.vercel.app/api/v1/email/getallemails", {
+                const res = await axios.get("https://hmail-service.onrender.com/api/v1/email/getallemails", {
                     withCredentials: true
                 });
                 dispatch(setEmails(res.data.emails));
