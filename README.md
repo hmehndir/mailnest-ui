@@ -97,13 +97,3 @@ The application is deployed using [Vercel](https://vercel.com/). To deploy your 
    Follow the prompts to complete the deployment.
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
